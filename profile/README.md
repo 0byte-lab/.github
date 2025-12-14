@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.0byte.tech/">
+  <a href="https://nolabs.tech/">
     <img src="https://img.shields.io/badge/Get%20Started-1abc9c?style=for-the-badge" alt="Get Started">
   </a>
-  <a href="https://0byte.tech/verify">
+  <a href="https://nolabs.tech/verify">
     <img src="https://img.shields.io/badge/0byte%20Verifer-4C51BF?style=for-the-badge" alt="0byte Verifier">
   </a>
   <a href="https://github.com/0byte-lab/python-sdk">
