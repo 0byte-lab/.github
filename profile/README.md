@@ -9,21 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="https://0byte.tech">
-    <img src="https://img.shields.io/badge/Website-0byte.tech-1abc9c?style=for-the-badge" alt="Website">
-  </a>
-  <a href="https://pypi.org/project/0byte">
-    <img src="https://img.shields.io/badge/PyPI-0byte-blue?style=for-the-badge" alt="PyPI">
-  </a>
-  <a href="https://www.npmjs.com/package/@0byte-lab/sdk">
-    <img src="https://img.shields.io/badge/npm-@0byte--lab/sdk-red?style=for-the-badge" alt="npm">
-  </a>
-  <a href="https://x.com/0byteHQ">
-    <img src="https://img.shields.io/badge/X-@0byteHQ-black?style=for-the-badge" alt="X">
-  </a>
-  <a href="https://discord.gg/2GUWSDrk">
-    <img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge" alt="Discord">
-  </a>
+  <a href="https://github.com/0byte-lab/0byte/actions/workflows/ci.yml"><img src="https://github.com/0byte-lab/0byte/actions/workflows/ci.yml/badge.svg?branch=dev" alt="CI"></a>
+  <a href="https://pypi.org/project/0byte/"><img src="https://img.shields.io/pypi/v/0byte" alt="PyPI"></a>
+  <a href="https://www.npmjs.com/package/@0byte-lab/sdk"><img src="https://img.shields.io/npm/v/@0byte-lab/sdk" alt="npm"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
 </p>
 
 ---
@@ -57,5 +46,5 @@ proof = client.stamp(content, "image/png", "openai", "dall-e-3")
 Rust · Ed25519 · Merkle Trees · Perceptual Hashing · Multi-Index Hashing
 
 <p align="center">
-  <a href="https://github.com/0byte-lab/0byte">View the monorepo →</a>
+  <a href="https://0byte.tech">Website</a> · <a href="https://github.com/0byte-lab/0byte">Monorepo</a> · <a href="https://x.com/0byteHQ">X</a> · <a href="https://discord.gg/2GUWSDrk">Discord</a>
 </p>
