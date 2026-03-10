@@ -2,44 +2,60 @@
   <img src="https://github.com/user-attachments/assets/8ffbede2-f7f3-481d-8197-7aeefbd5bd94" alt="0byte logo" width="200"/>
 </p>
 
+<h3 align="center">The trust layer for the AI internet.</h3>
+
 <p align="center">
-  <a href="https://nolabs.tech/">
-    <img src="https://img.shields.io/badge/Get%20Started-1abc9c?style=for-the-badge" alt="Get Started">
+  0byte lets anyone cryptographically verify where AI content or actions came from.
+</p>
+
+<p align="center">
+  <a href="https://0byte.tech">
+    <img src="https://img.shields.io/badge/Website-0byte.tech-1abc9c?style=for-the-badge" alt="Website">
   </a>
-  <a href="https://nolabs.tech/verify">
-    <img src="https://img.shields.io/badge/0byte%20Verifer-4C51BF?style=for-the-badge" alt="0byte Verifier">
+  <a href="https://pypi.org/project/0byte">
+    <img src="https://img.shields.io/badge/PyPI-0byte-blue?style=for-the-badge" alt="PyPI">
   </a>
-  <a href="https://github.com/0byte-lab/python-sdk">
-    <img src="https://img.shields.io/badge/sdk_readme-yellow?style=for-the-badge" alt="Readme">
-  </a>
-  <a href="https://pypi.org/project/zbyte">
-    <img src="https://img.shields.io/badge/PyPI-zbyte-blue?style=for-the-badge" alt="Install from PyPI">
+  <a href="https://www.npmjs.com/package/@0byte-lab/sdk">
+    <img src="https://img.shields.io/badge/npm-@0byte--lab/sdk-red?style=for-the-badge" alt="npm">
   </a>
   <a href="https://x.com/0byteHQ">
-    <img src="https://img.shields.io/badge/x-0byte-blue?style=for-the-badge" alt="X">
+    <img src="https://img.shields.io/badge/X-@0byteHQ-black?style=for-the-badge" alt="X">
   </a>
   <a href="https://discord.gg/2GUWSDrk">
-    <img src="https://img.shields.io/badge/Discord-Join_0byte-blue?style=for-the-badge" alt="Discord">
+    <img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge" alt="Discord">
   </a>
 </p>
 
-# 0byte
+---
 
-> **SSL for AI content**
+Every piece of AI-generated content — images, video, audio — gets a **cryptographic proof of origin**: what model created it, when, and by whom.
 
-## About
+Think SSL certificates, but for AI content.
 
-“How can I prove this file was genuinely AI-generated—and by whom?”
+### How it works
 
-We embed an invisible, zero-knowledge proof of origin directly into every AI-generated image, video, or audio file. Anyone can independently verify the content’s authenticity in milliseconds—no central APIs, no leaked prompts, no guesswork.
+1. **Stamp** — AI content is perceptually fingerprinted and signed with Ed25519. The proof is anchored in a Merkle transparency log.
+2. **Verify** — Anyone can verify content against the registry. Perceptual hashing means verification survives screenshots, compression, and re-encoding.
+3. **Trust** — Every proof is independently verifiable, tamper-evident, and publicly auditable.
 
-**Key points**
+### Get started
 
-- **One-line SDK** integrates with any AI-model pipeline.  
-- **ZK-SNARK proof** binds the file hash, model, metadata, timestamp, and platform ID.  
-- **On-chain anchoring** (Solana) makes the commitment immutable and public.  
-- **Privacy-preserving**—we never store or reveal your prompt or weights.
+```bash
+pip install 0byte          # Python
+npm install @0byte-lab/sdk # TypeScript
+```
 
-## How it works
+```python
+from zerobyte import Client
 
-![0byte-new-how-it-works](https://github.com/user-attachments/assets/8ce8a148-5084-4b86-ba2a-e645da39fa32)
+client = Client(api_key="0b_key_...")
+proof = client.stamp(content, "image/png", "openai", "dall-e-3")
+```
+
+### Built with
+
+Rust · Ed25519 · Merkle Trees · Perceptual Hashing · Multi-Index Hashing
+
+<p align="center">
+  <a href="https://github.com/0byte-lab/0byte">View the monorepo →</a>
+</p>
