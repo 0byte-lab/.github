@@ -10,9 +10,6 @@
 
 <p align="center">
   <a href="https://github.com/0byte-lab/0byte/actions/workflows/ci.yml"><img src="https://github.com/0byte-lab/0byte/actions/workflows/ci.yml/badge.svg?branch=dev" alt="CI"></a>
-  <a href="https://pypi.org/project/0byte/"><img src="https://img.shields.io/pypi/v/0byte" alt="PyPI"></a>
-  <a href="https://www.npmjs.com/package/@0byte-lab/sdk"><img src="https://img.shields.io/npm/v/@0byte-lab/sdk" alt="npm"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
 </p>
 
 ---
