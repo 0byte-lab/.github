@@ -8,10 +8,6 @@
   0byte lets anyone cryptographically verify where AI content or actions came from.
 </p>
 
-<p align="center">
-  <a href="https://github.com/0byte-lab/0byte/actions/workflows/ci.yml"><img src="https://github.com/0byte-lab/0byte/actions/workflows/ci.yml/badge.svg?branch=dev" alt="CI"></a>
-</p>
-
 ---
 
 Every piece of AI-generated content — images, video, audio — gets a **cryptographic proof of origin**: what model created it, when, and by whom.
